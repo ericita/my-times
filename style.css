@@ -4,7 +4,7 @@
   font-weight: bold;
 }
 
-.container {
+.header-container {
   display: flex;
   justify-content: space-between;
   padding: 5px 20px;

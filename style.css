@@ -1,3 +1,5 @@
+/* Header Content */
+
 .header {
   font-family: Verdana;
   font-size: 14px;
@@ -36,4 +38,36 @@
 
 .header li a {
   color: black;
+}
+
+/* Main Content */
+
+.main-container {
+  display: flex;
+  padding: 40px 0;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.large {
+  width: 630px;
+  display: flex;
+  border: 1px solid red;
+}
+
+.medium {
+  width: 300px;
+  display: flex;
+  border: 1px solid green;
+}
+
+.small {
+  width: 240px;
+  display: flex;
+  border: 1px solid blue;
 }
